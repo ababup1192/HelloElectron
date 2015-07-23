@@ -4,8 +4,18 @@
   "description": "Hello Electron",
   "main": "main.js",
   "scripts": {
+    "start": "gulp start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "ababup1192",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "electron-connect": "^0.2.1",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-typescript": "^2.8.0"
+  }
 }
