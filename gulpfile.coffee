@@ -28,7 +28,7 @@ gulp.task 'bower', () ->
     .pipe(cssFilter)
     .pipe(gulp.dest('./build/css/lib'))
 
-gulp.task 'start', ['jade', 'typescript'], () ->
+gulp.task 'start', ['jade', 'typescript', 'bower'], () ->
   electron.start()
   gulp.watch('./src/**/*.{jade,ts}', ['jade', 'typescript'])
   gulp.watch(['main.js'], electron.restart)
