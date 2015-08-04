@@ -11,13 +11,18 @@
   "license": "ISC",
   "devDependencies": {
     "coffee-script": "^1.9.3",
-    "electron-connect": "^0.2.1",
-    "gulp": "^3.9.0",
-    "gulp-filter": "^2.0.2",
-    "gulp-jade": "^1.0.1",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-sass": "^2.0.4",
-    "gulp-typescript": "^2.8.0",
-    "main-bower-files": "^2.9.0"
+     "electron-connect": "^0.2.1",
+     "gulp": "^3.9.0",
+     "gulp-filter": "^2.0.2",
+     "gulp-jade": "^1.0.1",
+     "gulp-load-plugins": "^0.10.0",
+     "gulp-sass": "^2.0.4",
+     "gulp-typescript": "^2.8.0",
+     "jasmine-core": "^2.3.4",
+     "karma": "^0.13.3",
+     "karma-chrome-launcher": "^0.2.0",
+     "karma-firefox-launcher": "^0.1.6",
+     "karma-jasmine": "^0.3.6",
+     "main-bower-files": "^2.9.0"
   }
 }
